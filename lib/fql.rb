@@ -5,7 +5,7 @@ require "fql/exception"
 require "multi_json"
 
 module Fql
-  BASE_URL = 'https://graph.facebook.com/fql?q='
+  BASE_URL = 'https://graph.facebook.com/v2.0/fql?q='
 
   class << self
 
